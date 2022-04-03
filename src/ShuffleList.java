@@ -3,6 +3,7 @@ package src;
 import java.util.*;
 
 public class ShuffleList {
+
     public static String[] shuffleList(List<String> originalNamesList) {
 
         Collections.shuffle(originalNamesList);
