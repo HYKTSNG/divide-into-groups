@@ -18,7 +18,7 @@ public class MembersList {
         for (int i = 1; i <= originalMembers; i++) {
             System.out.println("メンバーの名前を入力してください。");
             System.out.println(i + "人目");
-            String m = scanner.nextLine();
+            String m = scanner.next();
             originalNamesList.add(m);
         }
 
